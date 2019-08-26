@@ -269,6 +269,25 @@ text-decoration: none;
   width: 100%;
   height: auto;
 }
+
+.photoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: pink;
+}
+.scaleImg{
+  width: 450px;
+  height: 400px;
+  padding: 10px;
+}
 @media only screen and (max-width: 480px) {
   .homeImage{
     background-image: url('Camera_IphoneX.jpg');
@@ -277,5 +296,18 @@ text-decoration: none;
     bottom: 0;
     margin: auto;
     position: absolute;
+  }
+  .photoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  }
+  .scaleImg{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
