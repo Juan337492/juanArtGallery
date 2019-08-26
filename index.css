@@ -173,6 +173,7 @@ background: #121818;
 
 html {
 height: auto;
+background-color: #121818;
 }
 body {
 height: 100%;
@@ -285,14 +286,20 @@ text-decoration: none;
   height: 400px;
   padding: 10px;
 }
+
+.pTag{
+  color: white;
+  text-align: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  margin-top: 50%;
+  font: 
+}
 @media only screen and (max-width: 480px) {
   .homeImage{
     background-image: url('Camera_IphoneX.jpg');
-    display: block;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    position: absolute;
+    margin-top: 60%;
+    margin-bottom: auto;
   }
   .photoContainer{
   display: flex;
