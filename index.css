@@ -166,15 +166,13 @@ color: white;
 }
 
 .container {
-position: absolute;
 top: 0; right: 0;
 bottom: 0; left: 0;
-overflow: hidden;
 background: #121818;
 }
 
 html {
-height: 100%;
+height: auto;
 }
 body {
 height: 100%;
@@ -281,7 +279,6 @@ text-decoration: none;
   margin: 100px;
   margin-right: auto;
   margin-left: auto;
-  background-color: pink;
 }
 .scaleImg{
   width: 450px;
@@ -304,7 +301,7 @@ text-decoration: none;
   flex-direction: column;
   }
   .scaleImg{
-    width: 100%;
+    width: 95%;
     height: auto;
     padding: 10px;
     margin-right: auto;
